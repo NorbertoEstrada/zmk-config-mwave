@@ -14,7 +14,12 @@
 
         Esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <35 34>;
+            key-positions = <61 70>;
+        };
+
+        Caps {
+            bindings = <&caps_word>;
+            key-positions = <62 69>;
         };
     };
 
