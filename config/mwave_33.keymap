@@ -9,6 +9,15 @@
 / {
     #include "mwave_prim.dtsi"
 
+    combos {
+        compatible = "zmk,combos";
+
+        Esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <35 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
