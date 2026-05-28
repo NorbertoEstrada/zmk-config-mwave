@@ -15,11 +15,13 @@
         Esc {
             bindings = <&kp ESCAPE>;
             key-positions = <61 70>;
+            layers = <0>;
         };
 
         Caps {
             bindings = <&caps_word>;
             key-positions = <62 69>;
+            layers = <0>;
         };
     };
 
