@@ -117,12 +117,12 @@
 
         one_hand {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp RG(V)      &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp RG(RS(V))  &kp RG(RS(S))  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
