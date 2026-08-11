@@ -117,7 +117,7 @@
 
         one_hand {
             bindings = <
-&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
+&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 3
 &trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &kp RG(V)      &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
@@ -126,34 +126,16 @@
             >;
         };
 
-        extra1 {
-            display-name = "Blue";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Green";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Red";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra5 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra6 {
-            display-name = "Yellow";
-            status = "reserved";
+        no_homerowmods {
+            display-name = "Base";
+            bindings = <
+&kp CAPSLOCK  &kp F1    &kp F2        &kp F3     &kp F4     &kp F5         &kp F6       &kp F7     &kp F8     &kp F9    &kp F10        &kp F11    &kp F12    &kp HOME   &kp END  &kp INSERT  &to 0
+&kp GRAVE     &kp N1    &kp N2        &kp N3     &kp N4     &kp N5         &kp N6       &kp N7     &kp N8     &kp N9    &kp N0         &kp MINUS  &kp EQUAL  &kp BSPC
+&kp TAB       &kp Q     &kp W         &kp F      &kp P      &kp B          &kp J        &kp L      &kp U      &kp Y     &kp SEMICOLON  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
+&kp ESCAPE    &kp A     &kp R         &kp S      &kp T      &kp G          &kp M        &kp N      &kp E      &kp I     &kp O          &kp SQT    &kp RET    &kp PG_UP
+&kp LSHFT     &kp X     &kp C         &kp D      &kp V      &kp Z          &kp K        &kp H      &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT  &kp UP     &kp PG_DN
+&kp LCTRL     &kp LGUI  &kp LEFT_ALT  &kp SPACE  &kp ENTER  &kp RIGHT_ALT  &kp K_CMENU  &kp RCTRL  &kp LEFT   &kp DOWN  &kp RIGHT
+            >;
         };
     };
 };
