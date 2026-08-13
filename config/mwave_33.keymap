@@ -48,6 +48,11 @@
             key-positions = <47 56>;
             layers = <0>;
         };
+
+        switch {
+            bindings = <&tog 2>;
+            key-positions = <49 50 48>;
+        };
     };
 
     behaviors {
