@@ -53,6 +53,11 @@
             bindings = <&tog 2>;
             key-positions = <49 50 48>;
         };
+
+        Enter {
+            bindings = <&kp RET>;
+            key-positions = <77 76>;
+        };
     };
 
     behaviors {
@@ -122,12 +127,12 @@
 
         one_hand {
             bindings = <
-&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 3
-&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RG(V)      &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RG(RS(V))  &kp RG(RS(S))  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans             &trans          &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 3
+&trans  &trans             &trans          &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(BACKSPACE)  &kp LC(DELETE)  &kp RG(V)      &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)          &kp LA(TAB)     &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_UNDO         &kp K_REDO      &kp RG(RS(V))  &kp RG(RS(S))  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans          &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
