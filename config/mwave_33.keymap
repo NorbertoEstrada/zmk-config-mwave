@@ -8,6 +8,9 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "studio-macros.dtsi"
 
+&mmv {
+};
+
 / {
     #include "mwave_prim.dtsi"
 
