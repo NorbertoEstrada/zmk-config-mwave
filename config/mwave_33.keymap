@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include "studio-macros.dtsi"
 
 / {
@@ -57,6 +58,16 @@
         Enter {
             bindings = <&kp RET>;
             key-positions = <77 76>;
+        };
+
+        Switch {
+            bindings = <&tog 2>;
+            key-positions = <53 54 55>;
+        };
+
+        enter {
+            bindings = <&kp RETURN>;
+            key-positions = <78 79>;
         };
     };
 
@@ -127,12 +138,12 @@
 
         one_hand {
             bindings = <
-&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 3
-&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(BACKSPACE)  &kp LC(DELETE)   &kp RG(V)      &trans         &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)          &kp LA(LC(TAB))  &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)          &kp LC(Y)        &kp RG(RS(V))  &kp RG(RS(S))  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans             &trans           &trans         &trans         &trans    &trans    &trans         &trans         &trans             &trans       &trans  &trans  &trans  &trans  &trans  &to 3
+&trans  &trans             &trans           &trans         &trans         &trans    &trans    &trans         &trans         &trans             &trans       &trans  &trans  &trans
+&trans  &kp LC(BACKSPACE)  &kp LC(DELETE)   &kp RG(V)      &mkp MB4       &trans    &trans    &mkp MB4       &kp RG(V)      &kp LC(BACKSPACE)  &kp LC(DEL)  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)          &kp LA(LC(TAB))  &kp LC(V)      &kp LC(C)      &mkp MB5  &mkp MB5  &kp LC(C)      &kp LC(V)      &kp LA(LC(TAB))    &kp LC(A)    &trans  &trans  &trans
+&trans  &kp LC(Z)          &kp LC(Y)        &kp RG(RS(V))  &kp RG(RS(S))  &trans    &trans    &kp LS(RG(S))  &kp RG(RS(V))  &kp LC(Z)          &kp LC(Y)    &trans  &trans  &trans
+&trans  &trans             &trans           &trans         &trans         &trans    &trans    &trans         &trans         &trans             &trans
             >;
         };
 
