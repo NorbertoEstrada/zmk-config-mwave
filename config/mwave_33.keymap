@@ -49,22 +49,22 @@
             layers = <0>;
         };
 
-        switch {
+        switch_L {
             bindings = <&tog 2>;
             key-positions = <49 50 48>;
         };
 
-        Enter {
+        enter_L {
             bindings = <&kp RET>;
             key-positions = <77 76>;
         };
 
-        Switch {
+        switch_R {
             bindings = <&tog 2>;
             key-positions = <53 54 55>;
         };
 
-        enter {
+        enter_R {
             bindings = <&kp RETURN>;
             key-positions = <78 79>;
         };
