@@ -7,9 +7,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include "studio-macros.dtsi"
 
-&mmv {
-};
-
 / {
     #include "mwave_prim.dtsi"
 
