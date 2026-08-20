@@ -137,12 +137,12 @@
 
         one_hand {
             bindings = <
-&trans  &trans             &trans           &trans         &trans         &trans   &trans   &trans         &trans         &trans             &trans       &trans  &trans  &trans  &trans  &trans  &to 3
-&trans  &trans             &trans           &trans         &trans         &trans   &trans   &trans         &trans         &trans             &trans       &trans  &trans  &trans
-&trans  &kp LC(BACKSPACE)  &kp LC(DELETE)   &kp RG(V)      &kp LG(H)      &trans   &trans   &kp LG(H)      &kp RG(V)      &kp LC(BACKSPACE)  &kp LC(DEL)  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)          &kp LA(LC(TAB))  &kp LC(V)      &kp LC(C)      &kp F13  &kp F13  &kp LC(C)      &kp LC(V)      &kp LA(LC(TAB))    &kp LC(A)    &trans  &trans  &trans
-&trans  &kp LC(Z)          &kp LC(Y)        &kp RG(RS(V))  &kp RG(RS(S))  &trans   &trans   &kp LS(RG(S))  &kp RG(RS(V))  &kp LC(Z)          &kp LC(Y)    &trans  &trans  &trans
-&trans  &trans             &trans           &trans         &trans         &trans   &trans   &trans         &trans         &trans             &trans
+&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans         &trans         &trans             &trans       &trans  &trans  &trans  &trans  &trans  &to 3
+&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans         &trans         &trans             &trans       &trans  &trans  &trans
+&trans  &kp LC(BACKSPACE)  &kp LC(DELETE)   &kp RG(V)      &kp LG(H)      &trans  &trans  &kp LG(H)      &kp RG(V)      &kp LC(BACKSPACE)  &kp LC(DEL)  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)          &kp LA(LC(TAB))  &kp LC(V)      &kp LC(C)      &trans  &trans  &kp LC(C)      &kp LC(V)      &kp LA(LC(TAB))    &kp LC(A)    &trans  &trans  &trans
+&trans  &kp LC(Z)          &kp LC(Y)        &kp RG(RS(V))  &kp RG(RS(S))  &trans  &trans  &kp LS(RG(S))  &kp RG(RS(V))  &kp LC(Z)          &kp LC(Y)    &trans  &trans  &trans
+&trans  &trans             &trans           &trans         &trans         &trans  &trans  &trans         &trans         &trans             &trans
             >;
         };
 
