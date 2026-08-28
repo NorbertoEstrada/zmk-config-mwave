@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include "studio-macros.dtsi"
 
 / {
@@ -88,6 +89,16 @@
             bindings = <&kp LC(LG(LEFT))>;
             key-positions = <33 34>;
         };
+
+        L_mouse_assist {
+            bindings = <&tog 4>;
+            key-positions = <35 34 33>;
+        };
+
+        R_mouse_assist {
+            bindings = <&tog 4>;
+            key-positions = <38 39 40>;
+        };
     };
 
     behaviors {
@@ -155,7 +166,7 @@
             >;
         };
 
-        one_hand {
+        one_hand_editing {
             bindings = <
 &trans  &trans         &trans           &trans         &trans         &trans   &trans   &trans         &trans         &trans           &trans     &trans  &trans      &trans  &trans  &trans  &to 3
 &trans  &trans         &trans           &trans         &trans         &trans   &trans   &trans         &trans         &trans           &trans     &trans  &trans      &trans
@@ -175,6 +186,17 @@
 &kp ESCAPE    &kp A     &kp R         &kp S      &kp T      &kp G          &kp M        &kp N      &kp E      &kp I     &kp O          &kp SQT    &kp RET    &kp PG_UP
 &kp LSHFT     &kp X     &kp C         &kp D      &kp V      &kp Z          &kp K        &kp H      &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT  &kp UP     &kp PG_DN
 &kp LCTRL     &kp LGUI  &kp LEFT_ALT  &kp SPACE  &kp ENTER  &kp RIGHT_ALT  &kp K_CMENU  &kp RCTRL  &kp LEFT   &kp DOWN  &kp RIGHT
+            >;
+        };
+
+        one_hand_mouse_assist {
+            bindings = <
+&trans  &trans         &trans      &trans         &trans         &trans    &trans    &trans         &trans         &trans         &trans     &trans  &trans      &trans  &trans  &trans  &to 3
+&trans  &trans         &trans      &trans         &trans         &trans    &trans    &trans         &trans         &trans         &trans     &trans  &trans      &trans
+&trans  &kp BACKSPACE  &kp DELETE  &kp RG(V)      &mkp MB4       &trans    &trans    &mkp MB4       &kp RG(V)      &kp BACKSPACE  &kp DEL    &trans  &trans      &trans  &trans
+&trans  &kp LC(A)      &mkp RCLK   &mkp MCLK      &mkp LCLK      &mkp MB5  &mkp MB5  &mkp LCLK      &mkp MCLK      &mkp RCLK      &kp LC(A)  &trans  &kp ESCAPE  &trans
+&trans  &kp LC(Z)      &kp LC(Y)   &kp RG(RS(V))  &kp RG(RS(S))  &trans    &trans    &kp LS(RG(S))  &kp RG(RS(V))  &kp LC(Z)      &kp LC(Y)  &trans  &trans      &trans
+&trans  &trans         &trans      &trans         &kp SPACE      &trans    &trans    &trans         &trans         &trans         &trans
             >;
         };
     };
