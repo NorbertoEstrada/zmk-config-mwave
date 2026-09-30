@@ -176,12 +176,12 @@
 
         navigation {
             bindings = <
-&trans  &trans   &trans         &trans        &trans         &trans        &trans    &trans     &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F13  &kp F14        &kp F15       &trans         &trans        &trans    &trans     &trans    &trans     &trans  &trans  &trans  &trans
-&trans  &trans   &kp RC(PG_UP)  &kp RC(UP)    &kp RC(PG_DN)  &kp RC(HOME)  &kp HOME  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp RC(LEFT)   &kp RC(DOWN)  &kp RC(RIGHT)  &kp RC(END)   &kp END   &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans
-&trans  &trans   &trans         &trans        &trans         &trans        &trans    &trans     &trans    &trans     &trans  &trans  &trans  &trans
-&trans  &trans   &trans         &trans        &trans         &trans        &trans    &trans     &trans    &trans     &trans
+&trans  &trans   &trans         &trans        &trans         &trans        &trans    &trans       &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F13  &kp F14        &kp F15       &trans         &trans        &trans    &trans       &trans    &trans     &trans  &trans  &trans  &trans
+&trans  &trans   &kp RC(PG_UP)  &kp RC(UP)    &kp RC(PG_DN)  &kp RC(HOME)  &kp HOME  &kp PG_UP    &kp UP    &kp PG_DN  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &kp RC(LEFT)   &kp RC(DOWN)  &kp RC(RIGHT)  &kp RC(END)   &kp END   &kp LEFT     &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans
+&trans  &trans   &trans         &kp RS(F6)    &kp F6         &trans        &trans    &kp LS(TAB)  &kp TAB   &trans     &trans  &trans  &trans  &trans
+&trans  &trans   &trans         &trans        &trans         &trans        &trans    &trans       &trans    &trans     &trans
             >;
         };
 
